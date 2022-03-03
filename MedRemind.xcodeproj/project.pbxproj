@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5F3AF027D0F19600F2DA8F /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F3AEF27D0F19600F2DA8F /* MyDatePicker.swift */; };
+		1E5F3AF227D0F81100F2DA8F /* ClosureSleeve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F3AF127D0F81100F2DA8F /* ClosureSleeve.swift */; };
 		1EA4DE0D27CFAD5C0092F11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE0C27CFAD5C0092F11B /* AppDelegate.swift */; };
 		1EA4DE0F27CFAD5C0092F11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE0E27CFAD5C0092F11B /* SceneDelegate.swift */; };
 		1EA4DE1127CFAD5C0092F11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE1027CFAD5C0092F11B /* ViewController.swift */; };
 		1EA4DE1427CFAD5C0092F11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4DE1227CFAD5C0092F11B /* Main.storyboard */; };
-		1EA4DE1727CFAD5C0092F11B /* MedRemind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE1527CFAD5C0092F11B /* MedRemind.xcdatamodeld */; };
 		1EA4DE1927CFAD600092F11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4DE1827CFAD600092F11B /* Assets.xcassets */; };
 		1EA4DE1C27CFAD600092F11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4DE1A27CFAD600092F11B /* LaunchScreen.storyboard */; };
+		1EA4DE2D27CFB56B0092F11B /* MedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE2C27CFB56B0092F11B /* MedData.swift */; };
+		1EA4DE3127CFBB280092F11B /* MedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE2F27CFBB280092F11B /* MedTableViewCell.swift */; };
+		1EA4DE3227CFBB280092F11B /* MedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3027CFBB280092F11B /* MedTableViewCell.xib */; };
+		1EA4DE3527CFBB5C0092F11B /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3327CFBB5C0092F11B /* WorkoutTableViewCell.swift */; };
+		1EA4DE3627CFBB5D0092F11B /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3427CFBB5C0092F11B /* WorkoutTableViewCell.xib */; };
+		1EA4DE3827CFC07B0092F11B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3727CFC07B0092F11B /* DashboardViewController.swift */; };
+		1EA4DE3A27CFC6450092F11B /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3927CFC6450092F11B /* DashboardService.swift */; };
+		1EA4DE4027CFCE590092F11B /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4DE3F27CFCE590092F11B /* DashboardViewModel.swift */; };
+		1EA5498527D06EF8004F8AB6 /* ScheduleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5498427D06EF8004F8AB6 /* ScheduleHelper.swift */; };
+		1EA5498927D07299004F8AB6 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5498827D07299004F8AB6 /* DateUtil.swift */; };
+		1EA5498B27D073DE004F8AB6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5498A27D073DE004F8AB6 /* Extensions.swift */; };
+		92E7F4BFA7DF4DB0DED3B5EA /* Pods_MedRemind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666DC3A8D43A569CFE040A7 /* Pods_MedRemind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5F3AEF27D0F19600F2DA8F /* MyDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDatePicker.swift; sourceTree = "<group>"; };
+		1E5F3AF127D0F81100F2DA8F /* ClosureSleeve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSleeve.swift; sourceTree = "<group>"; };
 		1EA4DE0927CFAD5C0092F11B /* MedRemind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedRemind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA4DE0C27CFAD5C0092F11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EA4DE0E27CFAD5C0092F11B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1EA4DE1027CFAD5C0092F11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EA4DE1327CFAD5C0092F11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1EA4DE1627CFAD5C0092F11B /* MedRemind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedRemind.xcdatamodel; sourceTree = "<group>"; };
 		1EA4DE1827CFAD600092F11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA4DE1B27CFAD600092F11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA4DE1D27CFAD600092F11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA4DE2C27CFB56B0092F11B /* MedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedData.swift; sourceTree = "<group>"; };
+		1EA4DE2F27CFBB280092F11B /* MedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedTableViewCell.swift; sourceTree = "<group>"; };
+		1EA4DE3027CFBB280092F11B /* MedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedTableViewCell.xib; sourceTree = "<group>"; };
+		1EA4DE3327CFBB5C0092F11B /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		1EA4DE3427CFBB5C0092F11B /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutTableViewCell.xib; sourceTree = "<group>"; };
+		1EA4DE3727CFC07B0092F11B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		1EA4DE3927CFC6450092F11B /* DashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
+		1EA4DE3F27CFCE590092F11B /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1EA5498427D06EF8004F8AB6 /* ScheduleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHelper.swift; sourceTree = "<group>"; };
+		1EA5498827D07299004F8AB6 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		1EA5498A27D073DE004F8AB6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F85894529FC800FFDE7A966 /* Pods-MedRemind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedRemind.debug.xcconfig"; path = "Target Support Files/Pods-MedRemind/Pods-MedRemind.debug.xcconfig"; sourceTree = "<group>"; };
+		2666DC3A8D43A569CFE040A7 /* Pods_MedRemind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedRemind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E9A75924700CF48AF426EA /* Pods-MedRemind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedRemind.release.xcconfig"; path = "Target Support Files/Pods-MedRemind/Pods-MedRemind.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E7F4BFA7DF4DB0DED3B5EA /* Pods_MedRemind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,8 @@
 			children = (
 				1EA4DE0B27CFAD5C0092F11B /* MedRemind */,
 				1EA4DE0A27CFAD5C0092F11B /* Products */,
+				CA1D3DCE3D1C3AADEE67AB38 /* Pods */,
+				B46B5ED79D671A9CF1CA0815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +89,9 @@
 		1EA4DE0B27CFAD5C0092F11B /* MedRemind */ = {
 			isa = PBXGroup;
 			children = (
+				1EA4DE2527CFADC70092F11B /* Screens */,
+				1EA4DE2427CFAD8C0092F11B /* Services */,
+				1EA4DE2327CFAD840092F11B /* Helpers */,
 				1EA4DE0C27CFAD5C0092F11B /* AppDelegate.swift */,
 				1EA4DE0E27CFAD5C0092F11B /* SceneDelegate.swift */,
 				1EA4DE1027CFAD5C0092F11B /* ViewController.swift */,
@@ -65,9 +99,99 @@
 				1EA4DE1827CFAD600092F11B /* Assets.xcassets */,
 				1EA4DE1A27CFAD600092F11B /* LaunchScreen.storyboard */,
 				1EA4DE1D27CFAD600092F11B /* Info.plist */,
-				1EA4DE1527CFAD5C0092F11B /* MedRemind.xcdatamodeld */,
 			);
 			path = MedRemind;
+			sourceTree = "<group>";
+		};
+		1EA4DE2327CFAD840092F11B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5498427D06EF8004F8AB6 /* ScheduleHelper.swift */,
+				1EA5498827D07299004F8AB6 /* DateUtil.swift */,
+				1EA5498A27D073DE004F8AB6 /* Extensions.swift */,
+				1E5F3AEF27D0F19600F2DA8F /* MyDatePicker.swift */,
+				1E5F3AF127D0F81100F2DA8F /* ClosureSleeve.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1EA4DE2427CFAD8C0092F11B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE3927CFC6450092F11B /* DashboardService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1EA4DE2527CFADC70092F11B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE2827CFB47D0092F11B /* Dashboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1EA4DE2827CFB47D0092F11B /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE2B27CFB4990092F11B /* ViewModel */,
+				1EA4DE2A27CFB4910092F11B /* View */,
+				1EA4DE2927CFB4860092F11B /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1EA4DE2927CFB4860092F11B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE2C27CFB56B0092F11B /* MedData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EA4DE2A27CFB4910092F11B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE2E27CFBA8B0092F11B /* Cell */,
+				1EA4DE3727CFC07B0092F11B /* DashboardViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EA4DE2B27CFB4990092F11B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE3F27CFCE590092F11B /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EA4DE2E27CFBA8B0092F11B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1EA4DE2F27CFBB280092F11B /* MedTableViewCell.swift */,
+				1EA4DE3027CFBB280092F11B /* MedTableViewCell.xib */,
+				1EA4DE3327CFBB5C0092F11B /* WorkoutTableViewCell.swift */,
+				1EA4DE3427CFBB5C0092F11B /* WorkoutTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B46B5ED79D671A9CF1CA0815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2666DC3A8D43A569CFE040A7 /* Pods_MedRemind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1D3DCE3D1C3AADEE67AB38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F85894529FC800FFDE7A966 /* Pods-MedRemind.debug.xcconfig */,
+				79E9A75924700CF48AF426EA /* Pods-MedRemind.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EA4DE2027CFAD600092F11B /* Build configuration list for PBXNativeTarget "MedRemind" */;
 			buildPhases = (
+				EC951A17088F7021B138D830 /* [CP] Check Pods Manifest.lock */,
 				1EA4DE0527CFAD5C0092F11B /* Sources */,
 				1EA4DE0627CFAD5C0092F11B /* Frameworks */,
 				1EA4DE0727CFAD5C0092F11B /* Resources */,
+				3AF9E1665A2216E2FD9AED0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +254,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA4DE3627CFBB5D0092F11B /* WorkoutTableViewCell.xib in Resources */,
 				1EA4DE1C27CFAD600092F11B /* LaunchScreen.storyboard in Resources */,
 				1EA4DE1927CFAD600092F11B /* Assets.xcassets in Resources */,
+				1EA4DE3227CFBB280092F11B /* MedTableViewCell.xib in Resources */,
 				1EA4DE1427CFAD5C0092F11B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AF9E1665A2216E2FD9AED0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedRemind/Pods-MedRemind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MedRemind/Pods-MedRemind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MedRemind/Pods-MedRemind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC951A17088F7021B138D830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedRemind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EA4DE0527CFAD5C0092F11B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA4DE3127CFBB280092F11B /* MedTableViewCell.swift in Sources */,
+				1EA4DE2D27CFB56B0092F11B /* MedData.swift in Sources */,
 				1EA4DE1127CFAD5C0092F11B /* ViewController.swift in Sources */,
+				1E5F3AF227D0F81100F2DA8F /* ClosureSleeve.swift in Sources */,
+				1EA4DE4027CFCE590092F11B /* DashboardViewModel.swift in Sources */,
 				1EA4DE0D27CFAD5C0092F11B /* AppDelegate.swift in Sources */,
+				1EA4DE3A27CFC6450092F11B /* DashboardService.swift in Sources */,
 				1EA4DE0F27CFAD5C0092F11B /* SceneDelegate.swift in Sources */,
-				1EA4DE1727CFAD5C0092F11B /* MedRemind.xcdatamodeld in Sources */,
+				1EA5498527D06EF8004F8AB6 /* ScheduleHelper.swift in Sources */,
+				1EA5498B27D073DE004F8AB6 /* Extensions.swift in Sources */,
+				1EA4DE3527CFBB5C0092F11B /* WorkoutTableViewCell.swift in Sources */,
+				1EA4DE3827CFC07B0092F11B /* DashboardViewController.swift in Sources */,
+				1EA5498927D07299004F8AB6 /* DateUtil.swift in Sources */,
+				1E5F3AF027D0F19600F2DA8F /* MyDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +468,13 @@
 		};
 		1EA4DE2127CFAD600092F11B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F85894529FC800FFDE7A966 /* Pods-MedRemind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823R2YX564;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedRemind/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,17 +491,19 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1EA4DE2227CFAD600092F11B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E9A75924700CF48AF426EA /* Pods-MedRemind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 823R2YX564;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MedRemind/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -336,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,19 +546,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1EA4DE1527CFAD5C0092F11B /* MedRemind.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1EA4DE1627CFAD5C0092F11B /* MedRemind.xcdatamodel */,
-			);
-			currentVersion = 1EA4DE1627CFAD5C0092F11B /* MedRemind.xcdatamodel */;
-			path = MedRemind.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1EA4DE0127CFAD5C0092F11B /* Project object */;
 }
